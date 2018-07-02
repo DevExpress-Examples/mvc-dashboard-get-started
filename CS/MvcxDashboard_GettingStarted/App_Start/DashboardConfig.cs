@@ -14,6 +14,8 @@ namespace MvcxDashboard_GettingStarted {
             // method to register the existing data source in the created storage.
             //var dataSourceStorage = new DataSourceInMemoryStorage();
             //DashboardConfigurator.Default.SetDataSourceStorage(dataSourceStorage);
+
+            DashboardConfigurator.Default.SetConnectionStringsProvider(new DevExpress.DataAccess.Web.ConfigFileConnectionStringsProvider());
         }
     }
 }

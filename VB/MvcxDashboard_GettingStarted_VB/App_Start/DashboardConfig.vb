@@ -13,5 +13,7 @@ Public Class DashboardConfig
         ' method to register the existing data source in the created storage.
         'Dim dataSourceStorage = New DataSourceInMemoryStorage()
         'DashboardConfigurator.Default.SetDataSourceStorage(dataSourceStorage)
+
+        DashboardConfigurator.Default.SetConnectionStringsProvider(New DevExpress.DataAccess.Web.ConfigFileConnectionStringsProvider())
     End Sub
 End Class
