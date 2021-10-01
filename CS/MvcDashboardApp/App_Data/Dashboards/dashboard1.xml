@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Dashboard>
   <Title Text="New Dashboard" />
   <DataSources>
@@ -49,6 +49,21 @@
         </Pane>
       </Panes>
     </Chart>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Gauges 1" DataSource="sqlDataSource1" DataMember="SalesPerson">
+      <DataItems>
+        <Measure DataMember="UnitPrice" DefaultId="DataItem0" />
+        <Dimension DataMember="Country" DefaultId="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem1" />
+      </SeriesDimensions>
+      <GaugeElement>
+        <ActualValue DefaultId="DataItem0" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+    </Gauge>
     <Card ComponentName="cardDashboardItem1" Name="Cards 1" DataSource="sqlDataSource1" DataMember="SalesPerson">
       <DataItems>
         <Measure DataMember="UnitPrice" DefaultId="DataItem0" />
@@ -73,33 +88,18 @@
         </LayoutTemplate>
       </Card>
     </Card>
-    <Gauge ComponentName="gaugeDashboardItem1" Name="Gauges 1" DataSource="sqlDataSource1" DataMember="SalesPerson">
-      <DataItems>
-        <Measure DataMember="UnitPrice" DefaultId="DataItem0" />
-        <Dimension DataMember="Country" DefaultId="DataItem1" />
-      </DataItems>
-      <SeriesDimensions>
-        <SeriesDimension DefaultId="DataItem1" />
-      </SeriesDimensions>
-      <GaugeElement>
-        <ActualValue DefaultId="DataItem0" />
-        <AbsoluteVariationNumericFormat />
-        <PercentVariationNumericFormat />
-        <PercentOfTargetNumericFormat />
-      </GaugeElement>
-    </Gauge>
   </Items>
   <LayoutOptions>
-    <Height Mode="Fixed" Value="550" />
+    <Height Value="500" />
   </LayoutOptions>
   <LayoutTree>
     <LayoutGroup>
-      <LayoutGroup>
-        <LayoutGroup Orientation="Vertical">
+      <LayoutGroup Orientation="Vertical">
+        <LayoutGroup>
+          <LayoutItem DashboardItem="chartDashboardItem1" />
           <LayoutItem DashboardItem="cardDashboardItem1" />
-          <LayoutItem DashboardItem="gaugeDashboardItem1" />
         </LayoutGroup>
-        <LayoutItem DashboardItem="chartDashboardItem1" />
+        <LayoutItem DashboardItem="gaugeDashboardItem1" />
       </LayoutGroup>
     </LayoutGroup>
   </LayoutTree>
