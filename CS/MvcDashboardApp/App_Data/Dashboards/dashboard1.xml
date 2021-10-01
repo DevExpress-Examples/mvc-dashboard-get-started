@@ -89,9 +89,6 @@
       </Card>
     </Card>
   </Items>
-  <LayoutOptions>
-    <Height Value="500" />
-  </LayoutOptions>
   <LayoutTree>
     <LayoutGroup>
       <LayoutGroup Orientation="Vertical">
