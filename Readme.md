@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Dashboard for MVC - Get Started
 
-The example contains the source code of the project created in this step-by-step tutorial: [Create an ASP.NET MVC Dashboard Designer](https://docs.devexpress.com/Dashboard/116313/get-started/build-web-dashboard-applications/create-an-aspnet-mvc-dashboard-application).
+The example contains the source code of the project created in this step-by-step tutorial: [Create an ASP.NET MVC Dashboard Application](https://docs.devexpress.com/Dashboard/116313/get-started/build-web-dashboard-applications/create-an-aspnet-mvc-dashboard-application).
 
 <!-- default file list -->
 ## Files to Look At
