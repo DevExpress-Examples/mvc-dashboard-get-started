@@ -25,7 +25,7 @@ The example contains the source code of the project created in this step-by-step
 
 - [Dashboard for ASP.NET Core - Get Started](https://github.com/DevExpress-Examples/asp-net-core-dashboard-get-started)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-get-started&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=mvc-dashboard-get-started&~~~was_helpful=no)
 
